@@ -1,5 +1,5 @@
 body{
-    background-color: 184352;
+    background-color: #184352;
 
 }
 
@@ -15,7 +15,7 @@ body{
     left:0;
     position:absolute
     width 100%;
-    background-color: 184352;
+    background-color: #184352;
 }
 
 .menu{
@@ -34,7 +34,7 @@ body{
     position: relative;
     padding: 12px 40px;
     border: 1px solid #9D9FA2;
-    border-radious:1.5px;
+    border-radius:1.5px;
     border: color #387593;
     cursor: pointer;
 }
@@ -57,23 +57,23 @@ body{
     position:absolute;
     top: 43.5px;
     width:125.5px;
-    capacity:0;
+    opacity:0;
     visibility: hidden;
 }
     
-.menu li{
-    background-color: 387593;
+.submenu li{
+    background-color: #387593;
     color: #B3B3B3;
     display: block;
    
 }
 
-.menu li:hover{
+.submenu li:hover{
     background-color: #5EAFDF;
     color: #fff;
 }
 
-.menu li:hover ul{
+.submenu li:hover ul{
     background-color: #5EAFDF;
     color: #fff;
 
