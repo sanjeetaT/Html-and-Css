@@ -36,7 +36,7 @@ h1{
 /* select all squre path */
 .squares:nth-child(-n+4) p{
     font-family: "Helvetica Neue", Helvetion, Arial, Helvetica, sans-serif;
-    font-size: 1.5cm;
+    font-size: 1.5em;
     font-weight: 900;
     text-align: center;
     margin: 0;
@@ -95,7 +95,7 @@ h1{
 
 @keyframes race{
     0%, 100%{
-        transform: translateY(Opx);
+        transform: translateY(0px);
         background-image: url("../images/smiley1.png") ;
     }
     50%{
