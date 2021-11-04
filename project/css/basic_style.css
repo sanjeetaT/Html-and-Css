@@ -62,7 +62,7 @@ h1{
 }
 
 .container .squares:nth-child(-n+4):hover{
-    background-image: url("../images/smiley2.png");
+    background-image: url("../image/smiley2.png");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
